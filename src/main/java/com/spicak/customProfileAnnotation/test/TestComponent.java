@@ -1,6 +1,5 @@
 package com.spicak.customProfileAnnotation.test;
 
-import com.spicak.customProfileAnnotation.dev.DevComponent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -12,7 +11,7 @@ import org.springframework.stereotype.Component;
 @TestProfile
 public class TestComponent
 {
-	private Logger logger = LoggerFactory.getLogger(DevComponent.class);
+	private Logger logger = LoggerFactory.getLogger(TestComponent.class);
 
 	public TestComponent()
 	{
